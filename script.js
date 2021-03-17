@@ -21,7 +21,7 @@ async function getTransactions() {
 }
 
 function formatDate(date) {
-    var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
     var date = new Date(date);
     var month = months[date.getMonth()];
     var year = date.getFullYear();

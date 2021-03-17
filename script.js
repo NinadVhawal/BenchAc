@@ -44,4 +44,4 @@ function buildTable(transactions) {
         sum += Number(transactions[i].Amount);
     }
     document.getElementById('total').textContent = sum.toFixed(2);
-}
+}# BenchTest
